@@ -1,0 +1,25 @@
+// Instalación  y actualización de docker compose
+
+
+sudo apt-get install docker-compose plugin
+
+sudo apt-get update 
+
+//comprobación
+
+docker compose version 
+
+//creación de la carpeta que contendrá el archivo .yml
+
+mkdir mongodb
+cd mongodb
+//una vez dentro creas el archivo y luego compruebas que esta dentro de ese directorio
+
+ls
+
+// levantamos el contenedor una vez dentro de la carpeta
+
+docker-compose up -d
+
+// comprobación de que se ha levantado correctamente 
+docker ps
